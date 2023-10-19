@@ -1,0 +1,94 @@
+body{
+    background-image: url('img/grunge-halloween-background-10585326.png');
+    background-size: cover;
+}
+/* register */
+#form-register{
+    margin-top: 130px;
+    height: 100%;
+    width: 33vw;
+    background-color: white;
+    border-radius: 40px;
+}
+#tai-khoan,#mat-khau{
+    border: 0px;
+    border-bottom: 3px solid blue;
+    padding: 0px;
+    width: 27vw;
+    height: 5vh;
+    margin-bottom: 30px;
+}
+#text-register>p{
+    font-size: 30px;
+    margin-bottom: 1%;
+    margin-top: 0px;
+}
+#text-register>label{
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+#nam,#nu{
+    width: 20px;
+    height: 20px;
+    margin-right: 3%;
+    margin-bottom: 4%;
+}
+#chon-date{
+    font-size: 20px;
+}
+#btn-register{
+    width: 27vw;
+    height: 7vh;
+    background-color: blue;
+    font-size: 32px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#btn-register:hover{
+    background-color: rgb(17, 17, 223);
+}
+#register{
+    display: flex;
+    justify-content: center;
+}
+#icon-register:hover{
+    color: white;   
+}
+#tai-khoan::placeholder {
+    font-size: 20px;
+}
+#mat-khau::placeholder {
+    font-size: 20px;
+}
+#tai-khoan{
+    font-size: 20px;
+}
+#mat-khau{
+    font-size: 20px;
+}
+#text-register>button{
+    margin-bottom: 20px;
+}
+#chon-date{
+    margin-bottom: 4%;
+}
+/* back home button */
+.home{
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.home>i{
+    font-size: 33px;
+}
+.home:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+.home>i:hover{
+    color: black;
+}

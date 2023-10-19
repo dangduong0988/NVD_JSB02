@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+}
+#background{
+    height: 100vh;
+    width: 100vw;
+    background-color:   rgba(54, 51, 51, 0.629);
+    position: fixed;
+    display: none;
+    z-index: 2;
+}
+/* scroll to top */
+.scroll{
+    position: fixed;
+    cursor: pointer;
+    z-index: 999;
+    color: white;
+    font-size: 30px;
+    width: auto;
+    height: auto;
+    background-color: black;
+    border-radius: 80px;
+    padding: 6px 15px 6px 15px;
+    right: 10px;
+    bottom: 10px;
+}
+/* navbar */
+#menu{
+    height: 90px;
+    background-color: orange;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+.text-menu{
+    margin: 0;
+    font-size: 50px;
+    font-family: Snap ITC;
+    /* margin-right: 700px; */
+    color: #000;
+}
+#pumpkin-icon{
+    width: 70px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#icon-menu{
+    position: relative;
+    margin-right: 30px;
+}
+#icon-login{
+    margin-right: 20px;
+}
+#icon-menu:hover{
+    color: white;
+}
+/* sub-menu */
+#sub-menu{
+    height: auto;
+    width: 300px;
+    background-color: black;
+    float: right;
+    border-radius: 30px;
+    display: none;
+    z-index: 1;
+    position: fixed;
+    right: 0px;
+    text-align: center;
+}
+
+#sub-menu>a{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+}
+#sub-menu>a:hover{
+    background-color: white;
+    color: black;
+    padding-left: 2%;
+    border-radius: 7px;
+    font-size: 35px;
+}
+/* login */
+#form-login{
+    margin-top: 170px;
+    position: absolute;
+    height: auto;
+    width: 600px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 40px;
+    position: fixed;
+}
+#text-login{
+    /* margin-left: 5%; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#text-login>p{
+    justify-content: start;
+}
+#text-login>input{
+    border: 0px;
+    border-bottom: 3px solid blue;
+    padding: 0px;
+    width: 27vw;
+    height: 5vh;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.link-form{
+    margin-bottom: 20px;
+}
+#text-login>p{
+    font-size: 30px;
+    margin-bottom: 1%;
+    margin-top: 0px;
+}
+#btn-login{
+    width: 27vw;
+    height: 7vh;
+    background-color: blue;
+    font-size: 32px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#btn-login:hover{
+    background-color: rgb(17, 17, 223);
+}
+#login{
+    display: flex;
+    justify-content: center;
+}
+#icon-login:hover{
+    color: white;   
+}
+#login{
+    display: none;
+}
+#tai-khoan::placeholder {
+    font-size: 20px;
+}
+#mat-khau::placeholder {
+    font-size: 20px;
+}
+#tai-khoan{
+    font-size: 20px;
+}
+#mat-khau{
+    font-size: 20px;
+}
+#text-login>button{
+    margin-bottom: 20px;
+}
+#dang-ki{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+}
+#dang-ki:hover{
+    border-bottom: 3px solid black;
+}
+.link-form{
+    text-align: center;
+}
+/* carousel */
+.carousel{
+    position: relative;
+    margin-top: 90px;
+    z-index: 0;
+}
+.carousel>img{
+    width: 100%;
+    height: 98vh;
+}
+/* product */
+.product{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.product-1,.product-2{
+    text-align: center;
+    width: 300px;
+    height: 100%;
+}
+.ten-ve-1,.ten-ve-2{
+    font-size: 30px;
+}
+.img-1,.img-2{
+    width: 300px;
+    height: 600px;
+}
+.gia-ban{
+    margin-top: 10px;
+    height: 10%;
+    width: 180px;
+    font-size: 40px;
+    background-color: rgb(207, 207, 207);
+}
+.danh-gia{
+    display: flex;
+    font-size: 20px;
+}
+.giam-gia{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.so-luong{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.product-1:hover{
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.415);
+}
+.product-2:hover{
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.415);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-pagi{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+.pagination {
+    display: inline-block;
+    justify-content: center;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 15px;
+    text-decoration: none;
+  }

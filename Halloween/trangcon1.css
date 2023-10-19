@@ -1,0 +1,32 @@
+.product{
+    display: flex;
+    justify-content: center;
+}
+.ten-ve{
+    font-size: 25px;
+}
+.product-1,.product-2{
+    display: flex;
+}
+.img-1,.img-2{
+    width: 300px;
+}
+.gia-ban{
+    margin-top: 10px;
+    height: 10%;
+    width: 180px;
+    font-size: 40px;
+    background-color: rgb(207, 207, 207);
+}
+.danh-gia{
+    display: flex;
+    font-size: 20px;
+}
+.giam-gia{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.so-luong{
+    font-size: 20px;
+    margin-top: 10px;
+}

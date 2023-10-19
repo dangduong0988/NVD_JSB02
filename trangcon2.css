@@ -1,0 +1,86 @@
+body{
+    background-image: url('img/pngtree-halloween-flat-purple-moon-path-pumpkin-head-beautiful-picture-image_2502172.jpg');
+    background-size: cover;
+}
+/* vé */
+.img-2{
+    width: 100%;
+    height: auto;
+}
+.khung-san-pham-lon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.khung-san-pham{
+    height: auto;
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+}
+.khung-noi-dung{
+    margin-left: 20px;
+}
+.ten-ve{
+    font-size: 40px;
+}
+.product-1{
+    display: flex;
+}
+.img-1,.img-2{
+    width: 300px;
+}
+.gia-ban{
+    margin-top: 10px;
+    height: 11%;
+    width: 300px;
+    font-size: 55px;
+    background-color: rgb(207, 207, 207);
+}
+.danh-gia{
+    display: flex;
+    font-size: 30px;
+}
+.giam-gia{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.so-luong{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.btn-mua{
+    height: 60px;
+    width: 200px;
+    text-align: center; 
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: #ee6217;
+    color: white;
+}
+.btn-mua:hover{
+    font-size: 42px;
+}
+
+/* back home button */
+.home{
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.home>i{
+    font-size: 33px;
+}
+.home:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+.home>i:hover{
+    color: black;
+}
